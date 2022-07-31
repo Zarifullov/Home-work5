@@ -12,6 +12,9 @@ for (int i = 0; i < array.Length; i++)
   System.Console.Write($"{array[i]} ");
 }
 
+Console.WriteLine();
+Console.Write("Количество чётных чисел в массиве: ");
+
 int result = 0;
 
 int Count (int result)
